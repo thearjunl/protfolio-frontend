@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun L - Cybersecurity & Web Development Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="images/logo.svg">
+    <link rel="apple-touch-icon" href="images/logo.svg">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- <a href="#home">Arjun L</a> -->
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="resume.pdf" class="nav-link" download="Arjun_L_Resume.pdf">
+                    <i class="fas fa-download"></i> Resume
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">hi! my name is</span>
+                    <span class="hero-name">Arjun L</span>
+                    <span class="hero-subtitle">Cybersecurity Expert & Web Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Securing digital landscapes and crafting innovative web solutions with cutting-edge technology and expertise.
+                </p>
+                <!-- <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div> -->
+            </div>
+
+            <!-- Hero Social Media Links -->
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/thearjunl" class="hero-social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/thearjunl" class="hero-social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://leetcode.com/u/thearjunl/" class="hero-social-link" aria-label="LeetCode">
+                    <i class="fas fa-code"></i>
+                </a>
+                <a href="https://tryhackme.com/p/thearjunl" class="hero-social-link" aria-label="TryHackMe">
+                    <i class="fas fa-shield-alt"></i>
+                </a>
+                <a href="https://academy.hackthebox.com/dashboard" class="hero-social-link" aria-label="Hack The Box">
+                    <i class="fas fa-cube"></i>
+                </a>
+            </div>
+            <div class="hero-animation">
+                <div class="cyber-grid" id="cyber-grid"></div>
+                <div class="security-lock" id="security-lock">
+                    <svg width="120" height="120" viewBox="0 0 120 120">
+                        <defs>
+                            <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#00f5ff;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#0080ff;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="30" y="50" width="60" height="50" rx="5" fill="url(#lockGradient)" stroke="#00f5ff" stroke-width="2"/>
+                        <path d="M40 50 V35 Q40 20 60 20 Q80 20 80 35 V50" fill="none" stroke="url(#lockGradient)" stroke-width="3" class="lock-shackle"/>
+                        <circle cx="60" cy="70" r="8" fill="#ffffff" class="lock-keyhole"/>
+                        <rect x="56" y="70" width="8" height="15" fill="#ffffff" class="lock-keyhole"/>
+                    </svg>
+                </div>
+                <div class="network-nodes" id="network-nodes"></div>
+            </div>
+        </div>
+        <div class="matrix-rain" id="matrix-rain"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-modern">
+        <div class="container">
+            <div class="about-wrapper">
+                <!-- Left Content -->
+                <div class="about-content">
+                    <h2 class="about-title">About Me</h2>
+                    <h3 class="about-subtitle">Intro</h3>
+                    
+                    <div class="about-text">
+                        <p class="intro-text">
+                            Why, hello there! My name is <strong>Arjun L</strong>. I'm a passionate cybersecurity professional and web developer with expertise in protecting digital assets and creating robust web applications. With a strong foundation in both offensive and defensive security practices, I help organizations secure their digital infrastructure while building innovative web solutions.
+                        </p>
+                        
+                        <p class="opportunities-text">
+                            I'm always seeking new opportunities and challenges that push the boundaries of what's possible in both cybersecurity and web development. I thrive on collaboration, bringing fresh perspectives to complex problems, and turning innovative ideas into reality through code and security expertise.
+                        </p>
+                        
+                        <p class="cta-text">
+                            <strong>Let's get to work, shall we?</strong>
+                        </p>
+                        
+                        <blockquote class="quote">
+                            <em>"The best way to predict the future is to create it."</em>
+                            <cite>— Peter Drucker</cite>
+                        </blockquote>
+                    </div>
+                    
+
+                </div>
+                
+                <!-- Right Skills Cloud -->
+                <div class="skills-cloud">
+                    <h4 class="skills-title">Tech Stack & Tools</h4>
+                    <div class="skills-container">
+                        <span class="skill-tag featured">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag featured">React</span>
+                        <span class="skill-tag">NodeJS</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag featured">MongoDB</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag featured">Nmap</span>
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag featured">Metasploit</span>
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag featured">Kali Linux</span>
+                        <span class="skill-tag">OWASP ZAP</span>
+                        <span class="skill-tag">Splunk</span>
+                        <span class="skill-tag featured">SIEM</span>
+                        <span class="skill-tag">Nessus</span>
+                        <span class="skill-tag">OSINT</span>
+                        <span class="skill-tag featured">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag featured">Penetration Testing</span>
+                        <span class="skill-tag">Vulnerability Assessment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sky Shield</h3>
+                    <p>SkyShield is an open-source, automated Cloud Security Posture Management (CSPM) tool designed to help organizations secure their cloud environments.</p>
+                    <div class="project-tech">
+                        <span>Python 3</span>
+                        <span>boto3</span>
+                        <span>jinja2</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thearjunl/SkyShield" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>VaultDrop</h3>
+                    <p>VaultDrop is a modern, secure file sharing application built with Next.js that allows users to upload, share, and manage files  </p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Superbase</span>
+                        <span>Lucide Reac</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thearjunl/VaultDrop" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <!-- <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Vulnerability Assessment Tool</h3>
+                    <p>Automated vulnerability assessment platform that scans web applications for common security flaws and generates detailed reports.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>SQLite</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Dynamic Car Wash</h3>
+                    <p>Secure e-commerce platform with payment integration, user authentication, and comprehensive admin dashboard.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Express</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div> -->
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>BrainSpark</h3>
+                    <p>BrainSpark is a modern, real-time quiz platform that uses AI to generate questions from PDF notes. </p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>MongoDB + Mongoose</span>
+                        <span>Socket.IO Client </span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/thearjunl/BrainSpark/tree/master" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <!-- <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Security App</h3>
+                    <p>Mobile application for security professionals featuring network scanning, password generation, and security best practices.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in discussing new opportunities, collaborating on projects, 
+                        or sharing knowledge about cybersecurity and web development.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>theearjunl@gmail.com</span>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span></span>
+                        </div> -->
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kerala,India</span>
+                        </div>
+                    </div>
+                    <!-- <div class="social-links">
+                        <a href="https://www.linkedin.com/in/thearjunl" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/thearjunl" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div> -->
+                </div>
+                <form  class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p> Handcrafted with ❤️ by myself.</p>
+             <p> Copyright  &copy; Arjun L | 2025</p>
+            
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
